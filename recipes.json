@@ -1,94 +1,178 @@
-[
-  {
-    "title": "وصفة 1",
-	"category": "الفئة 1",
-    "ingredients": [
-      "1 ملعقة طعام زيت الزيتون",
-      "1 فص طعام من زيت الزيتون",
-      "1 فص من الثوم٬ مسحوق",
-      "5 أكواب أو 1250 مل من الماء",
-      "1 مغلف من شوربة خضار الربيع ماجي",
-      "1 كوب الفاصوليا الحمراء المعلّبة"
+{
+    "appetizers": [
+        {
+            "name": "Zaalouk",
+            "image": "images/zaalouk.jpg",
+            "ingredients": [
+                "2 large eggplants",
+                "2 large tomatoes",
+                "4 cloves garlic",
+                "1/4 cup olive oil",
+                "1 teaspoon paprika",
+                "1 teaspoon cumin",
+                "Salt and pepper to taste",
+                "1/4 cup chopped parsley"
+            ],
+            "instructions": [
+                "Grill the eggplants until charred and soft.",
+                "Peel and chop the eggplants and tomatoes.",
+                "In a pan, heat the olive oil and sauté the garlic.",
+                "Add the tomatoes and cook until soft.",
+                "Add the eggplants, spices, salt, and pepper.",
+                "Cook for 20 minutes, stirring occasionally.",
+                "Garnish with parsley before serving."
+            ]
+        },
+        {
+            "name": "Moroccan Harira",
+            "image": "images/harira.jpg",
+            "ingredients": [
+                "1 cup lentils",
+                "1 cup chickpeas",
+                "1/2 cup rice",
+                "2 large tomatoes",
+                "1 onion",
+                "4 cloves garlic",
+                "1/4 cup olive oil",
+                "1 teaspoon turmeric",
+                "1 teaspoon ginger",
+                "Salt and pepper to taste",
+                "1/4 cup chopped cilantro"
+            ],
+            "instructions": [
+                "Soak chickpeas overnight.",
+                "Cook chickpeas and lentils until tender.",
+                "In a pot, heat the olive oil and sauté the onion and garlic.",
+                "Add the tomatoes and cook until soft.",
+                "Add the spices, chickpeas, lentils, and rice.",
+                "Cook for 30 minutes, stirring occasionally.",
+                "Garnish with cilantro before serving."
+            ]
+        }
     ],
-    "steps": [
-      " يُسخّن زيت الزيتون في قدر كبيرة،",
-      "يُضاف الثوم ويُطهى على نار متوسطة لدقيقة واحدة أو حتى تعبق رائحته.",
-      "يُضاف الماء ومغلّف شوربة خضار الربيع ماجي",
-      "يُغلى المزيج ويُترك على نار خفيفة لمدة 5 دقائق",
-      "مع التحريك بين الحين والآخر.خطوة 3",
-      "تُضاف الفاصوليا الحمراء والتورتيليني بالجبنة.",
-      "تُترك المكونات على نار خفيفة مع التحريك المستمرّ أو حتى تنضج التورتيليني."
+    "mainDishes": [
+        {
+            "name": "Chicken Tagine with Olives and Preserved Lemons",
+            "image": "images/chicken_tagine.jpg",
+            "ingredients": [
+                "1 whole chicken, cut into pieces",
+                "2 preserved lemons",
+                "1 cup green olives",
+                "4 cloves garlic",
+                "1/4 cup olive oil",
+                "1 teaspoon ginger",
+                "1 teaspoon turmeric",
+                "Salt and pepper to taste",
+                "1/4 cup chopped cilantro"
+            ],
+            "instructions": [
+                "In a tagine, heat the olive oil and sauté the garlic.",
+                "Add the chicken pieces and brown on all sides.",
+                "Add the spices, preserved lemons, and olives.",
+                "Cover and cook for 1 hour, stirring occasionally.",
+                "Garnish with cilantro before serving."
+            ]
+        },
+        {
+            "name": "Lamb Couscous",
+            "image": "images/lamb_couscous.jpg",
+            "ingredients": [
+                "1 kg lamb, cut into pieces",
+                "2 cups couscous",
+                "4 large carrots",
+                "2 zucchinis",
+                "1 onion",
+                "4 cloves garlic",
+                "1/4 cup olive oil",
+                "1 teaspoon cumin",
+                "1 teaspoon paprika",
+                "Salt and pepper to taste",
+                "1/4 cup chopped parsley"
+            ],
+            "instructions": [
+                "In a pot, heat the olive oil and sauté the onion and garlic.",
+                "Add the lamb pieces and brown on all sides.",
+                "Add the spices and vegetables.",
+                "Cover and cook for 1 hour, stirring occasionally.",
+                "Prepare the couscous according to the package instructions.",
+                "Serve the lamb and vegetables over the couscous.",
+                "Garnish with parsley before serving."
+            ]
+        }
     ],
-    "image": "https://dummyimage.com/400x400/7800ef/0000.jpg"
-  },
-
-
-  {
-    "title": "وصفة 2",
-	 "category": "الفئة 2",
-    "ingredients": [
-      "1 ملعقة طعام زيت الزيتون",
-      "1 فص طعام من زيت الزيتون",
-      "1 فص من الثوم٬ مسحوق",
-      "5 أكواب أو 1250 مل من الماء",
-      "1 مغلف من شوربة خضار الربيع ماجي",
-      "1 كوب الفاصوليا الحمراء المعلّبة"
+    "desserts": [
+        {
+            "name": "Moroccan Almond Briouats",
+            "image": "images/almond_briouats.jpg",
+            "ingredients": [
+                "1 cup ground almonds",
+                "1/4 cup sugar",
+                "1/4 cup honey",
+                "1 teaspoon cinnamon",
+                "1 package phyllo dough",
+                "1/4 cup melted butter"
+            ],
+            "instructions": [
+                "Mix ground almonds, sugar, honey, and cinnamon.",
+                "Cut phyllo dough into strips and brush with melted butter.",
+                "Place a spoonful of almond mixture at the end of each strip.",
+                "Fold the phyllo dough into triangles, enclosing the filling.",
+                "Bake at 180°C for 20 minutes, or until golden brown."
+            ]
+        },
+        {
+            "name": "Chebakia",
+            "image": "images/chebakia.jpg",
+            "ingredients": [
+                "2 cups flour",
+                "1/2 cup sesame seeds",
+                "1/4 cup honey",
+                "1/4 cup orange blossom water",
+                "1 teaspoon cinnamon",
+                "1/4 cup melted butter",
+                "Oil for frying"
+            ],
+            "instructions": [
+                "Mix flour, sesame seeds, honey, orange blossom water, and cinnamon.",
+                "Knead the dough until smooth.",
+                "Roll out the dough and cut into strips.",
+                "Shape the strips into flower shapes.",
+                "Fry in hot oil until golden brown.",
+                "Drizzle with honey before serving."
+            ]
+        }
     ],
-    "steps": [
-      " يُسخّن زيت الزيتون في قدر كبيرة،",
-      "يُضاف الثوم ويُطهى على نار متوسطة لدقيقة واحدة أو حتى تعبق رائحته.",
-      "يُضاف الماء ومغلّف شوربة خضار الربيع ماجي",
-      "يُغلى المزيج ويُترك على نار خفيفة لمدة 5 دقائق",
-      "مع التحريك بين الحين والآخر.خطوة 3",
-      "تُضاف الفاصوليا الحمراء والتورتيليني بالجبنة.",
-      "تُترك المكونات على نار خفيفة مع التحريك المستمرّ أو حتى تنضج التورتيليني."
-    ],
-    "image": "https://dummyimage.com/400x400/fffff/0000.jpg"
-  },
-
-  {
-    "title": "وصفة 3",
-	 "category": "الفئة 3",
-    "ingredients": [
-      "1 ملعقة طعام زيت الزيتون",
-      "1 فص طعام من زيت الزيتون",
-      "1 فص من الثوم٬ مسحوق",
-      "5 أكواب أو 1250 مل من الماء",
-      "1 مغلف من شوربة خضار الربيع ماجي",
-      "1 كوب الفاصوليا الحمراء المعلّبة"
-    ],
-    "steps": [
-      " يُسخّن زيت الزيتون في قدر كبيرة،",
-      "يُضاف الثوم ويُطهى على نار متوسطة لدقيقة واحدة أو حتى تعبق رائحته.",
-      "يُضاف الماء ومغلّف شوربة خضار الربيع ماجي",
-      "يُغلى المزيج ويُترك على نار خفيفة لمدة 5 دقائق",
-      "مع التحريك بين الحين والآخر.خطوة 3",
-      "تُضاف الفاصوليا الحمراء والتورتيليني بالجبنة.",
-      "تُترك المكونات على نار خفيفة مع التحريك المستمرّ أو حتى تنضج التورتيليني."
-    ],
-    "image": "https://dummyimage.com/400x400/4400ef/0000.jpg"
-  },
-
-  {
-    "title": "وصفة 4",
-	 "category": "الفئة 4",
-    "ingredients": [
-      "1 ملعقة طعام زيت الزيتون",
-      "1 فص طعام من زيت الزيتون",
-      "1 فص من الثوم٬ مسحوق",
-      "5 أكواب أو 1250 مل من الماء",
-      "1 مغلف من شوربة خضار الربيع ماجي",
-      "1 كوب الفاصوليا الحمراء المعلّبة"
-    ],
-    "steps": [
-      " يُسخّن زيت الزيتون في قدر كبيرة،",
-      "يُضاف الثوم ويُطهى على نار متوسطة لدقيقة واحدة أو حتى تعبق رائحته.",
-      "يُضاف الماء ومغلّف شوربة خضار الربيع ماجي",
-      "يُغلى المزيج ويُترك على نار خفيفة لمدة 5 دقائق",
-      "مع التحريك بين الحين والآخر.خطوة 3",
-      "تُضاف الفاصوليا الحمراء والتورتيليني بالجبنة.",
-      "تُترك المكونات على نار خفيفة مع التحريك المستمرّ أو حتى تنضج التورتيليني."
-    ],
-    "image": "https://dummyimage.com/400x400/g00f0r/0000.jpg"
-  }
-]
+    "beverages": [
+        {
+            "name": "Moroccan Mint Tea",
+            "image": "images/mint_tea.jpg",
+            "ingredients": [
+                "1 bunch fresh mint",
+                "1 green tea bag",
+                "1/4 cup sugar",
+                "4 cups boiling water"
+            ],
+            "instructions": [
+                "Place the mint, green tea bag, and sugar in a teapot.",
+                "Pour boiling water over the ingredients.",
+                "Let steep for 5 minutes.",
+                "Serve hot, garnished with additional mint leaves."
+            ]
+        },
+        {
+            "name": "Orange Juice with Blossom Water",
+            "image": "images/orange_juice.jpg",
+            "ingredients": [
+                "4 large oranges",
+                "1 tablespoon orange blossom water",
+                "1 tablespoon sugar",
+                "Ice cubes"
+            ],
+            "instructions": [
+                "Juice the oranges.",
+                "Mix the orange juice, orange blossom water, and sugar.",
+                "Serve over ice cubes."
+            ]
+        }
+    ]
+}
